@@ -1,0 +1,79 @@
+.Home {
+   
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    padding-left: 3rem;
+    list-style: none;
+}
+
+.Home a {
+    display: flex;
+    align-items: center;
+    color: slateblue;
+}
+
+
+.listMenuLateral {
+    height: 70vh;
+    font-size: 22px;
+    margin: 0.5rem;
+    
+   
+}
+
+.listMenuLateral a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    margin-top: 0.5rem;
+    padding-left: 3rem;
+   
+}
+
+.list a {
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.containerLogOut {
+    height: 14vh;
+    margin-top: 1rem;
+    
+}
+
+.listLogOut {
+    font-size: 22px;
+    margin-top: 4rem;
+    padding-left: 60px;
+    list-style: none;
+  
+ 
+}
+
+.listLogOut a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: gray;
+    
+}
+
+.selected a {
+    background: slateblue;
+    color: white !important;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    ul svg {
+      width: 22px !important;
+      height: 22px !important;
+    }
+  }
+
+ 

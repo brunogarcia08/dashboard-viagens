@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box
+}
+
+html, body, #root {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.App{
+  display: flex;
+  margin: 0;
+  height: 100vh;
+}
+
+.Options {
+  padding: 1rem;
+  height: 100vh;
+  width: 25%;
+
+} 
+
+.Main{
+  height: 100vh;
+  width: 50%;
+  padding: 1rem;
+  background: #F0F8FF;
+}
+
+.LateralRight {
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+  .App > *{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .App {
+    width: 100vw;
+  }
+}
+
+

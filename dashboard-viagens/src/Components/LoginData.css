@@ -1,0 +1,24 @@
+
+.loginData {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.loginImage {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.loginName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.loginType {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0.2rem;
+}

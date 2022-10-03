@@ -1,0 +1,16 @@
+.cardDoneTrip {
+    display: flex;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    padding: 0.25rem;
+    gap: 0.5rem;
+    box-shadow: 0 0 16px #c4c4c4;
+}
+
+.cardDoneImage {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 8px;
+}
+
+

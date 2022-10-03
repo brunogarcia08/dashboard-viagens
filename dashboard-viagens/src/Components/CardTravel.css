@@ -1,0 +1,57 @@
+.cardTravel {
+    display: block;
+    width: 10rem;
+    height: 12rem;
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(169, 160, 228);
+    text-align: center;
+    padding-top: 5px;
+    transition: all ease-in-out 200ms;
+}
+
+.cardTravel:hover {
+    transform: scale(1.10);
+    background-color: slateblue;
+    color: white;
+}
+
+.cardTravel:hover .price {
+    background-color: white;
+    color: slateblue;
+}
+
+.cardTravelImage {
+    width: 9rem;
+    height: 7rem;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.dataCard {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between
+}
+
+.price {
+    background-color: slateblue;
+    color: white;
+    height: 28px;
+    margin-top: 0.5rem;
+    padding: 4px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: bold;
+
+}
+
+.locationIcon {
+    color: red;
+}
+

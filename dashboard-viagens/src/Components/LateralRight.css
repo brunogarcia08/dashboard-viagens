@@ -1,0 +1,76 @@
+.containerLateralRight {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.loginData {
+    flex: 1;
+    max-height: 15vh;
+}
+
+.Calendar {
+    height: 50vh;
+}
+
+
+.react-calendar {
+     transform: scale(0.9);
+     border: none !important;
+     box-shadow: 0 0 16px #c4c4c4;
+     border-radius: 8px;
+       
+}
+
+
+.footerLateralRight {
+    max-height: 35vh;
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
+
+.footerLateralRight > div{
+    position: relative;
+    width: 100%;
+    padding-top: 1.3rem;
+}
+
+.done {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    padding: 0 1rem;
+
+
+    scrollbar-width: auto;
+    scrollbar-color: transparent #ffffff;
+}
+
+.footerLateralRight::-webkit-scrollbar {
+    width: 4px;
+  }
+
+.footerLateralRight::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+.footerLateralRight::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px none #ffffff;
+}
+
+.titleDone {
+    position: sticky;
+    top: 0;
+    margin-left: 1rem;
+    background: white;
+}
+
+.titleDone h2 {
+    font-size: 20px !important;
+}

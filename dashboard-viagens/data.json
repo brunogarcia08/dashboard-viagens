@@ -1,0 +1,89 @@
+{
+    "traveling": [
+        {
+            "name": "Mount Bromo",
+            "agency": "Citilink",
+            "location": "JL Minato No2 Ponarogo",
+            "image": "https://source.unsplash.com/random/120x120?trip",
+            "price": 248
+
+        },
+
+        {
+            "name": "Lake Toba",
+            "agency": "Lion Air",
+            "location": "JL Kakasi No2 Jokata",
+            "image": "https://source.unsplash.com/random/120x120?mountain",
+            "price": 290
+
+        },
+
+        {
+            "name": "Desert Uetune",
+            "agency": "Citilink",
+            "location": "JL Naruto No2 Suatobaia",
+            "image": "https://source.unsplash.com/random/120x120?desert",
+            "price": 308
+
+        }
+        
+    ],
+
+    "most-popular": [
+        {
+            "name": "Mount Bromo",
+            "location": "Indonesia",
+            "image": "https://source.unsplash.com/random/120x120?trip",
+            "price": 248
+
+        },
+
+        {
+            "name": "Lake Toba",
+            "location": "Indonesia",
+            "image": "https://source.unsplash.com/random/120x120?mountain",
+            "price": 290
+
+        },
+
+        {
+            "name": "Desert Uetune",
+            "location": "Thailand",
+            "image": "https://source.unsplash.com/random/120x120?desert",
+            "price": 308
+
+        },
+        {
+            "name": "Palm Madigascar",
+            "location": "East Africa",
+            "image": "https://source.unsplash.com/random/120x120?ocean",
+            "price": 314
+
+        }
+        
+    ],
+
+    "done-trip": [
+        {
+            "name": "Mount Bromo",
+            "location": "Indonesia",
+            "image": "https://source.unsplash.com/random/120x120?sunset",
+            "dateTrip": "1995-12-17T03:24:00"
+        },
+        {
+            "name": "Desert Uetune",
+            "location": "Thailand",
+            "image": "https://source.unsplash.com/random/120x120?beach",
+            "dateTrip": "1995-12-17T03:24:00"
+        },
+        {
+            "name": "Palm Madigascar",
+            "location": "East Africa",
+            "image": "https://source.unsplash.com/random/120x120?mountain",
+            "dateTrip": "1995-12-17T03:24:00"
+        }
+        
+    ]
+
+
+}
