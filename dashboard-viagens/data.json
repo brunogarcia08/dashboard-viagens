@@ -83,6 +83,29 @@
             "dateTrip": "1995-12-17T03:24:00"
         }
         
+    ],
+
+    "destinations": [
+        {
+            "name": "Lake Toba",
+            "location": "Indonesia",
+            "image": "https://source.unsplash.com/random/120x120?beach"
+        },
+        {
+            "name": "Mount Bromo",
+            "location": "Indonesia",
+            "image": "https://source.unsplash.com/random/120x120?trip"
+        },
+        {
+            "name": "Desert Uetune",
+            "location": "Thailand",
+            "image": "https://source.unsplash.com/random/120x120?desert"
+        },
+        {
+            "name":"Palm Madigascar",
+            "location": "East Africa",
+            "image": "https://source.unsplash.com/random/120x120?mountain"  
+        }
     ]
 
 

@@ -9,10 +9,10 @@ const CardTravel = (props) => {
           <img className='cardTravelImage' src={ props.image }/>
           <div className='dataCard'>
             <p> { props.name } </p>
-            <p> { props.agency } </p>
+            <p> { props?.agency } </p>
           </div>
             <p> <HiLocationMarker className='locationIcon'/> { props.location }</p>
-            <p className='price'> $ { props.price } </p>
+            <p className='price'> $ { props?.price } </p>
         </div>
     )
 }

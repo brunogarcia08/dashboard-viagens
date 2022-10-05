@@ -1,0 +1,20 @@
+.discoverContainer {
+    height: 16rem;
+    width: 100%;
+    display: block;
+    margin-top: 1.5rem;
+}
+
+.discover {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+    
+}
+
+.discover .dataCard {
+    display: block;
+    text-align: center;
+}
