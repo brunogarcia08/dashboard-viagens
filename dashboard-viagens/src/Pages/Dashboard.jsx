@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import CardTravel from '../Components/CardTravel'
 import CardMost from '../Components/CardMost'
 import { BuscadorTraveling } from '../Services/BuscadorTraveling'
+import { useNavigate } from 'react-router-dom'
 
 const Dashboard = () => {
     const [travel, setTravel] = useState([]);
@@ -28,11 +29,13 @@ const Dashboard = () => {
 
     }, [])
 
+    const navigate = useNavigate()
+
     function BuscarTravel(event) {
         event.preventDefault()
         const name = event.target["search-destination"].value
-        BuscadorTraveling(name)
-        .then(response => console.log(response))
+        navigate("/Pesquisa/" + name)
+     
     }
 
     return (
@@ -42,7 +45,7 @@ const Dashboard = () => {
             <br/>
             <form className='searchForm' onSubmit={BuscarTravel}>
                 <BiSearchAlt className='searchIcon'/>
-                <input  type="text" name="search-destination" id="search-destination" placeholder='Search for your favorite destination'/>
+                <input  type="text" name="search-destination" id="search-destination" placeholder='Search for your favorite destination' required/>
                 <button className='btnSettings'><GoSettings size={"18px"}/></button>
                 <button className='btnSearch' type='submit'>Search</button>
             </form> 

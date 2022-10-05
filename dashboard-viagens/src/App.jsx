@@ -8,6 +8,7 @@ import Settings from './Pages/Settings'
 import Transaction from './Pages/Transaction'
 import Tickets from './Pages/Tickets'
 import Favorites from './Pages/Favorites'
+import Pesquisa from './Pages/Pesquisa'
 import './Components/MenuLateral.css'
 import LogOut from './Pages/LogOut'
 import LateralRight from './Components/LateralRight'
@@ -29,6 +30,7 @@ function App() {
           <Route path='/Transaction' element={<Transaction/>}/>
           <Route path='/Settings' element={<Settings/>}/>
           <Route path='/LogOut' element={<LogOut/>}/>
+          <Route path='/Pesquisa/:termopesquisado' element={<Pesquisa/>}/>
        </Routes>
        </div>
        <div className='LateralRight'>
