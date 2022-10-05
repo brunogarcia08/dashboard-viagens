@@ -4,6 +4,7 @@ import { GoSettings } from 'react-icons/go'
 import { useEffect, useState } from 'react'
 import CardTravel from '../Components/CardTravel'
 import CardMost from '../Components/CardMost'
+import { BuscadorTraveling } from '../Services/BuscadorTraveling'
 
 const Dashboard = () => {
     const [travel, setTravel] = useState([]);
@@ -27,17 +28,23 @@ const Dashboard = () => {
 
     }, [])
 
+    function BuscarTravel(event) {
+        event.preventDefault()
+        const name = event.target["search-destination"].value
+        BuscadorTraveling(name)
+        .then(response => console.log(response))
+    }
 
     return (
         <div>
            <h1>Hello, Brother Jow!</h1>
             <p>Welcome back and explore the wolrd</p>
             <br/>
-            <form className='searchForm'>
+            <form className='searchForm' onSubmit={BuscarTravel}>
                 <BiSearchAlt className='searchIcon'/>
-                <input type="text" name="search-destination" id="search-destination" placeholder='Search for your favorite destination'/>
+                <input  type="text" name="search-destination" id="search-destination" placeholder='Search for your favorite destination'/>
                 <button className='btnSettings'><GoSettings size={"18px"}/></button>
-                <button className='btnSearch'>Search</button>
+                <button className='btnSearch' type='submit'>Search</button>
             </form> 
             <div className='travelPlaning'>
                 <h2 className='titleTravelPlaning'>Traveling by Plane</h2>
